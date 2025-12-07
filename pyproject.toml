@@ -1,0 +1,30 @@
+[project]
+name = "vk-bot-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "brotli>=1.1.0",
+    "catboost>=1.2.8",
+    "cloudscraper>=1.2.71",
+    "curl-cffi>=0.13.0",
+    "jinja2>=3.1.6",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.2",
+    "playwright>=1.55.0",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "setuptools>=80.9.0",
+    "sqlalchemy>=2.0.43",
+    "undetected-chromedriver>=3.5.5",
+    "xgboost>=3.1.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=7.1.0",
+]
